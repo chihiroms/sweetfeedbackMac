@@ -285,8 +285,8 @@ void testApp::newResponse(ofxHttpResponse & response){
     
     if (response.status == 200) {
         network_errCount = 0;
-        if ((string)response.responseBody == "candy")
-            serialWrite('A');
+        if ((string)response.responseBody != "OK")
+            serialWrite(((string)response.responseBody).at(0));
     } else {
         network_errCount++;
     }
