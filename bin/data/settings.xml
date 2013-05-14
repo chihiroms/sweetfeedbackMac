@@ -1,0 +1,8 @@
+<settings>
+<port_number>0</port_number>
+ <!-- For CMU users, please don't edit nickname  -->
+<nickname>Ted</nickname>
+<url>http://209.129.244.24:9993/post</url>
+ <!-- in second  -->
+<server_request_interval>1</server_request_interval>
+</settings>
